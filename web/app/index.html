@@ -17,8 +17,12 @@
             <label class="sr-only" for="file">File</label>
             <input type="file" class="form-control" id="file" placeholder="File to scan..." ng-model="scan.file">
         </div>
-        <button class="btn btn-default" ng-click="scan()">Scan</button>
+        <button class="btn btn-default" ng-click="scanFile($event)" >Scan</button>
     </form>
+    <div>
+        <button class="btn btn-default" ng-click="getInqueue()">Get inqueue</button>
+        <span>{{ inqueue }}</span>
+    </div>
     <hr/>
     <div class="text-center">&copy; opswat 2015</div>
 </div>
