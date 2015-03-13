@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Metascan</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body ng-app="metascan">
+
+<div class="container" ng-controller="ScanCtrl">
+    <div class="text-center">
+        <h1>Metascan Online</h1>
+    </div>
+    <form class="form-inline">
+        <div class="form-group">
+            <label class="sr-only" for="file">File</label>
+            <input type="file" class="form-control" id="file" placeholder="File to scan..." ng-model="scan.file">
+        </div>
+        <button class="btn btn-default" ng-click="scan()">Scan</button>
+    </form>
+    <hr/>
+    <div class="text-center">&copy; opswat 2015</div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="js/app.js"></script>
+</body>
+</html>
