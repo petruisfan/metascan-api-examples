@@ -4,8 +4,8 @@ Metascan API examples using curl
 Variables needed:
 ``` bash
 API_KEY_HEADER="apikey: d7d77e87052554af73afb85134436eZ6"
-SERVER="https://scan.metascan-online.com"
 ```
+
 Number of files in queue:
 ``` bash
 curl -X GET  -H ${API_KEY_HEADER} https://scan.metascan-online.com/v2/file/inqueue
