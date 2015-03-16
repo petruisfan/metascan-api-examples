@@ -1,0 +1,22 @@
+{
+  "name": "metascan",
+  "version": "0.0.1",
+  "description": "CLI for metascan online http://metascan-online.com",
+  "main": "metascan.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petruisfan/metascan-api-examples"
+  },
+  "author": "Petru Isfan",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/petruisfan/metascan-api-examples/issues"
+  },
+  "homepage": "https://github.com/petruisfan/metascan-api-examples",
+  "dependencies": {
+    "commander": "^2.7.1"
+  }
+}
