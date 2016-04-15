@@ -19,7 +19,7 @@ module.exports = {
             return;
         }
         var options = {
-            host: "scan.metascan-online.com",
+            host: "scan" + config.server,
             port: 80,
             path: '/v2/file/' + dataId,
             method: 'GET',
@@ -44,7 +44,7 @@ module.exports = {
         console.log("Initiating request...");
 
         var options = {
-            host: "scan.metascan-online.com",
+            host: "scan." + config.server,
             port: 80,
             path: '/v2/hash/' + hash,
             method: 'GET',

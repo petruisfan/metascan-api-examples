@@ -1,7 +1,7 @@
 {
   "name": "metascan",
   "version": "0.0.1",
-  "description": "CLI for metascan online http://metascan-online.com",
+  "description": "CLI for metadefender http://metadefender.com",
   "main": "metascan.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

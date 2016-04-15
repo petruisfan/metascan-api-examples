@@ -3,10 +3,6 @@
 var program = require('commander');
 var _metascan =  require("./_metascan");
 
-//var config = {
-//    server: "https://scan.metascan-online.com"
-//};
-
 program
     .version('0.0.1')
     .option('-i, --scanip <ip>', 'Scan ip')
